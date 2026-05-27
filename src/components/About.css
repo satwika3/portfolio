@@ -1,0 +1,42 @@
+.about-content {
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 3.5rem;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-soft);
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Elegant custom vertical gradient left-border */
+.about-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--accent-blue), #8b5cf6);
+}
+
+.about-content p {
+  margin-bottom: 1.75rem;
+  line-height: 1.8;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    padding: 2.25rem 1.5rem;
+  }
+}
