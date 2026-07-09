@@ -3,20 +3,24 @@ import './Skills.css';
 
 const skillsData = [
   {
+    category: "Specialization",
+    skills: ["CyberSecurity"]
+  },
+  {
     category: "Languages",
-    skills: ["Java", "C", "Python", "SQL", "HTML", "CSS"]
+    skills: ["Java", "Python", "C", "Data Base"]
   },
   {
     category: "Technologies",
-    skills: ["Spring Boot", "REST APIs", "Docker", "Jenkins", "Azure"]
+    skills: ["Spring Boot", "React.js", "MySQL"]
   },
   {
     category: "Tools",
-    skills: ["Git", "GitHub", "Postman", "VS Code", "MySQL", "MongoDB"]
+    skills: ["Git", "VS Code", "Eclipse"]
   },
   {
     category: "Core Areas",
-    skills: ["DSA", "OOP", "Full Stack Development", "CI/CD", "Cybersecurity"]
+    skills: ["OOP", "Full Stack Development", "DBMS"]
   }
 ];
 

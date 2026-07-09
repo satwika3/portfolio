@@ -16,7 +16,7 @@ const Hero = () => {
         </p>
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-primary">View Projects</a>
-          <a href="/resume.pdf" download className="btn btn-outline">Download Resume</a>
+          <a href={`${import.meta.env.BASE_URL}resume.pdf?v=2`} target="_blank" rel="noopener noreferrer" className="btn btn-outline">Download Resume</a>
         </div>
         <div className="hero-socials">
           <a href="https://github.com/satwika3" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
